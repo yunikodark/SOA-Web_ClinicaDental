@@ -1,0 +1,395 @@
+/* Estilos personalizados para complementar Bootstrap */
+
+.dashboard-card {
+    text-align: center;
+    padding: 2rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 0.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.dashboard-card i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #0d6efd; /* Color primario de Bootstrap */
+}
+
+
+/* ================================================= */
+/* --- NUEVOS ESTILOS PARA SERVICIOS (GRANDES Y 3 POR FILA) --- */
+/* ================================================= */
+
+/* Título de la sección (sin cambios) */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Contenedor de cada item de servicio */
+.service-item {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px; /* Bordes redondeados para el contenedor */
+    overflow: hidden; /* Asegura que la imagen no se salga del borde redondeado */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Sombra sutil */
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+/* Efecto al pasar el mouse sobre el contenedor */
+.service-item:hover {
+    transform: translateY(-8px); /* Levanta la tarjeta */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12); /* Sombra más pronunciada */
+}
+
+/* Estilos para el enlace que envuelve todo */
+.service-item a {
+    text-decoration: none;
+    color: #444;
+    display: block;
+}
+
+/* Estilos para la IMAGEN (¡LO MÁS IMPORTANTE!) */
+.service-item img {
+    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+    
+    /* Hacemos la imagen cuadrada y responsive */
+    aspect-ratio: 1 / 1; 
+    
+    /* Recorta la imagen para que llene el espacio sin deformarse */
+    object-fit: cover; 
+}
+
+/* Texto debajo de la imagen */
+.service-item h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0; /* Quitamos margen por defecto */
+    padding: 20px 10px; /* Le damos espacio interno para que no esté pegado */
+}
+
+/* 1. ESTILO PARA SECCIÓN HERO (IMAGEN GRANDE) */
+.hero-section {
+    position: relative;
+    height: 75vh;
+    background-image: url('https://www.shutterstock.com/image-photo/portrait-young-doctors-clinic-600nw-2482969179.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+    /* ======== CÓDIGO NUEVO PARA CORREGIR ESPACIOS ======== */
+    margin-top: 0;   /* Elimina cualquier margen superior que pueda existir */
+    width: 100vw;      /* Ancho del 100% de la ventana (viewport width) */
+    left: 50%;         /* Lo mueve a la mitad de la pantalla */
+    transform: translateX(-50%); /* Lo regresa la mitad de su propio ancho, centrando y expandiendo */
+    /* ======================================================= */
+}
+
+
+
+/* ================================================= */
+/* --- ESTILOS PARA LA PÁGINA DE CONTACTO --- */
+/* ================================================= */
+
+/* Contenedor principal de la página */
+.contact-page-container {
+    background-color: #f8f9fa; /* Un fondo gris muy claro para toda la página */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Título principal "Contacto" */
+.contact-page-container h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 40px;
+}
+
+/* Estilo para las dos "tarjetas" principales */
+.contact-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+    height: 100%;
+}
+
+/* Estilos para el formulario en la tarjeta izquierda */
+.contact-card .form-label {
+    font-weight: 600;
+    color: #555;
+}
+
+.contact-card .form-control {
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al hacer clic en un campo del formulario */
+.contact-card .form-control:focus {
+    border-color: #0d6efd; /* Color primario de Bootstrap */
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.2);
+}
+
+/* Estilo del botón de envío */
+.contact-card .btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.contact-card .btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(13, 110, 253, 0.3);
+}
+
+
+/* Estilos para la información de contacto en la tarjeta derecha */
+.contact-info-container h3,
+.contact-info-container h4 {
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-item i.bi {
+    font-size: 1.5rem; /* Tamaño del ícono */
+    color: #0d6efd;   /* Color del ícono */
+    margin-right: 15px;
+    width: 30px; /* Ancho fijo para alineación perfecta */
+}
+
+/* Estilo para el mapa de Google */
+.contact-map iframe {
+    border-radius: 10px; /* Bordes redondeados para el mapa */
+}
+
+/* ================================================= */
+/* --- ESTILOS PARA LA PÁGINA "SOBRE NOSOTROS" --- */
+/* ================================================= */
+
+/* 1. SECCIÓN DE INTRODUCCIÓN */
+.about-intro {
+    background-color: #f8f9fa; /* Fondo gris claro */
+}
+
+.about-intro h1 {
+    font-weight: 700;
+    color: #343a40;
+}
+
+.about-intro .lead {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+/* 2. SECCIÓN DE VALORES */
+.value-card {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.value-card i.bi {
+    font-size: 3rem; /* Íconos grandes */
+    color: #1abc9c; /* Color verde azulado de tu marca */
+    margin-bottom: 15px;
+    display: block; /* Asegura que el margen funcione */
+}
+
+.value-card h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 3. SECCIÓN DEL EQUIPO */
+.team-section h2, .our-values h2 {
+    font-weight: 700;
+    color: #343a40;
+}
+.team-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Fotos circulares */
+    object-fit: cover; /* Asegura que la imagen no se deforme */
+    margin-bottom: 20px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* ================================================= */
+/* --- ESTILOS PARA LA PÁGINA DE LOGIN PROFESIONAL --- */
+/* ================================================= */
+
+/* Ocultar header y footer solo en la página de login si es necesario */
+/* body.login-page {
+    padding-top: 0;
+}
+body.login-page .navbar, 
+body.login-page footer {
+    display: none;
+} */
+
+
+.login-page-container {
+    min-height: calc(100vh - 56px); /* 56px es la altura típica de un navbar */
+    display: flex;
+    align-items: stretch; /* Hace que las columnas ocupen toda la altura */
+}
+/* Si ocultas el navbar, usa esta regla en su lugar */
+/* .login-page-container { min-height: 100vh; } */
+
+
+/* 1. COLUMNA IZQUIERDA (IMAGEN) */
+.login-image-side {
+    position: relative;
+    /* ¡IMPORTANTE! Reemplaza esta URL con una imagen de tu clínica */
+    background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+/* Capa oscura sobre la imagen para que el texto resalte */
+.login-image-side::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(to top, rgba(13, 110, 253, 0.5), rgba(22, 163, 150, 0.5));
+    opacity: 0.8;
+}
+
+.login-welcome-message {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-welcome-message h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.login-welcome-message p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+
+/* 2. COLUMNA DERECHA (FORMULARIO) */
+.login-form-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.login-logo {
+    max-width: 80px;
+    margin-bottom: 1rem;
+}
+
+.login-card h2 {
+    font-weight: 700;
+}
+
+/* Campos del formulario con íconos */
+.form-group-with-icon {
+    position: relative;
+}
+
+.form-group-with-icon .bi {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #adb5bd; /* Gris claro */
+    font-size: 1.1rem;
+}
+
+.form-group-with-icon .form-control {
+    padding-left: 45px; /* Espacio para el ícono */
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+}
+.form-group-with-icon .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.2);
+}
+.form-group-with-icon .form-control:focus + .bi {
+    color: #0d6efd; /* Cambia el color del ícono al hacer focus */
+}
+
+
+/* Botón y enlace de registro */
+.login-card .btn-primary {
+    padding: 12px;
+    font-weight: bold;
+}
+
+.login-card a {
+    font-weight: 600;
+    text-decoration: none;
+}

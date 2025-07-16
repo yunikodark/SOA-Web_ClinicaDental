@@ -1,0 +1,10 @@
+# Evitar que los visitantes puedan ver una lista de los archivos en las carpetas.
+# Es una medida de seguridad importante.
+Options -Indexes
+
+# Activar el motor de reescritura de Apache.
+RewriteEngine On
+
+# Proteger el acceso directo a la carpeta 'includes' que contiene archivos sensibles.
+# La bandera [F] significa 'Forbidden' (prohibido), L significa 'Last' (última regla).
+RewriteRule ^includes/ - [F,L]
