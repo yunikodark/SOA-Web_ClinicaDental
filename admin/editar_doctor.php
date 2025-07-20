@@ -208,7 +208,7 @@ require_once ROOT_PATH . '/includes/header.php';
 
 <h1>Editar Doctor</h1>
 <p>
-    <a href="doctores.php" class="btn btn-secondary">
+    <a href="gestionar_doctores.php" class="btn btn-secondary">
         &larr; Volver a la lista
     </a>
 </p>

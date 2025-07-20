@@ -38,7 +38,7 @@
                         <i class="bi bi-geo-alt-fill"></i>
                         <div>
                             <strong>Dirección:</strong><br>
-                            Calle Falsa 123, Ciudad, País
+                            Panamericana Norte, Av. Alfredo Mendiola 6377, Los Olivos 15306
                         </div>
                     </div>
 
@@ -46,7 +46,7 @@
                         <i class="bi bi-telephone-fill"></i>
                         <div>
                             <strong>Teléfono:</strong><br>
-                            +1 (234) 567-890
+                            +51 902 267 106
                         </div>
                     </div>
 
@@ -69,7 +69,7 @@
                     </div>
                     
                     <div class="mt-4 contact-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.0361093121!2d-74.30934422784534!3d40.69753995874427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2scr!4v1687802873193!5m2!1sen!2scr" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.312035313837!2d-77.0727669253681!3d-11.95288464015903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d1d877f532d7%3A0x8db19fe8e1f40feb!2sUniversidad%20Tecnol%C3%B3gica%20del%20Per%C3%BA!5e0!3m2!1ses-419!2spe!4v1752817713705!5m2!1ses-419!2spe" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>

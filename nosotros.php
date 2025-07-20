@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="team-card">
-                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop" alt="Dr. Carlos Reyes">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/026/375/249/small_2x/ai-generative-portrait-of-confident-male-doctor-in-white-coat-and-stethoscope-standing-with-arms-crossed-and-looking-at-camera-photo.jpg" alt="Dr. Carlos Reyes">
                         <h3>Dr. Carlos Reyes</h3>
                         <p class="text-primary fw-bold">Ortodoncista</p>
                         <p class="text-muted">El Dr. Reyes es nuestro experto en alinear sonrisas, utilizando las últimas técnicas en brackets y alineadores invisibles.</p>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="team-card">
-                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop" alt="Dra. Sofía Torres">
+                        <img src="https://media.istockphoto.com/id/1372002650/es/foto/retrato-recortado-de-una-atractiva-joven-doctora-de-pie-con-los-brazos-cruzados-en-la-oficina.jpg?s=612x612&w=0&k=20&c=nyNHWMzJiXcmpJOA5jueMfaFTMKLiSZ2yKMFGvNLrg0=" alt="Dra. Sofía Torres">
                         <h3>Dra. Sofía Torres</h3>
                         <p class="text-primary fw-bold">Odontopediatra</p>
                         <p class="text-muted">Especialista en hacer que la visita al dentista sea una experiencia positiva y divertida para los más pequeños.</p>

@@ -153,7 +153,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['tipo_mensaje'] = 'danger';
         }
         $stmt_estado->close();
-        header('Location: ' . BASE_URL . 'admin/doctores.php'); 
+        header('Location: ' . BASE_URL . 'admin/gestionar_doctores.php'); 
         exit;
     }
 }
@@ -347,7 +347,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // --- Lógica del SweetAlert para "Doctor Agregado" ---
     const doctorAgregadoConExito = <?php echo json_encode($doctor_agregado_exito); ?>;
-    const gestionarDoctoresUrl = '<?php echo BASE_URL; ?>admin/doctores.php'; // Para seguir registrando
+    const gestionarDoctoresUrl = '<?php echo BASE_URL; ?>admin/gestionar_doctores.php'; // Para seguir registrando
     const adminDashboardUrl = '<?php echo BASE_URL; ?>admin/index.php';       // Para "Más tarde"
 
     if (doctorAgregadoConExito) {

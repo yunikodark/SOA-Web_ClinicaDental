@@ -92,40 +92,41 @@ Estilos para el Nuevo Footer (Versión con Fondo Uniforme)
                 </div>
 
                 <div class="col-lg-2 col-md-6 col-12 mb-4">
-                    <h5 class="footer-title">Services</h5>
+                    <h5 class="footer-title">Servicios</h5>
                     <ul class="list-unstyled footer-links">
-                        <li><a href="#">Oral Prophylaxis</a></li>
-                        <li><a href="#">Tooth Restoration</a></li>
-                        <li><a href="#">Whitening</a></li>
-                        <li><a href="#">Fluoride Treatment</a></li>
-                        <li><a href="#">Orthodontic Braces</a></li>
-                        <li><a href="#">Tooth Extraction</a></li>
-                        <li><a href="#">Complete Denture</a></li>
-                        <li><a href="#">Partial Denture</a></li>
-                        <li><a href="#">Jacket Crown</a></li>
+                        <li><a href="#">Profilaxis oral</a></li>
+                        <li><a href="#">Restauración dental</a></li>
+                        <li><a href="#">Blanqueo</a></li>
+                        <li><a href="#">Tratamiento con flúor</a></li>
+                        <li><a href="#">Ortodoncia</a></li>
+                        <li><a href="#">Extracción dental</a></li>
+                        <li><a href="#">Dentadura completa</a></li>
+                        <li><a href="#">Prótesis parcial</a></li>
+                        <li><a href="#">Corona de chaqueta</a></li>
                         <li><a href="#">Fixed Bridge</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 mb-4">
-                    <h5 class="footer-title">Quick Links</h5>
+                    <h5 class="footer-title">Enlaces rapidos</h5>
                     <ul class="list-unstyled footer-links">
-                        <li><a href="<?php echo BASE_URL; ?>index.php">Home</a></li>
-                        <li><a href="#">Dental Services</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>paciente/agendar_cita.php">Appointment</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>nosotros.php">About Us</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>contacto.php">Contact Us</a></li>
-                        <li><a href="<?php echo BASE_URL; ?>auth/login.php">My Account</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>index.php">Inicio</a></li>
+                        <li><a href="#">Dental Servicios</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>paciente/agendar_cita.php">Cita</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>nosotros.php">Quienes somos</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>contacto.php">Contactanos</a></li>
+                        <li><a href="<?php echo BASE_URL; ?>auth/login.php">Mi cuenta</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-12 mb-4">
-                    <h5 class="footer-title">Social Media</h5>
+                    <h5 class="footer-title">Redes sociales</h5>
                     <div class="social-icons">
-                        <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="social-icon"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100006773834772" class="social-icon"><i class="bi bi-facebook"></i></a>
+                        <a href="https://x.com/auronplay?lang=es" class="social-icon"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.instagram.com/davidguetta/" class="social-icon"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dafne-cuvas-alvarez-dca/" class="social-icon"><i class="bi bi-linkedin"></i></a>
+                    </div>
                     </div>
                 </div>
 
